@@ -41,19 +41,5 @@ output = process_input(text_input, image_path)
 print(output)
 ```
 
-## 🚀 Pushing to GitHub
-Make sure **key.env** is ignored by adding it to `.gitignore`:
-```
-key.env
-```
-Then, push your code:
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/your-username/your-repo.git
-git push -u origin main
-```
-
 ## 📜 License
 This project is open-source. Feel free to modify and improve it!
