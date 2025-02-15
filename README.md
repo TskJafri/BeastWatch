@@ -1,4 +1,4 @@
-# 🚀 Dangerous Animal Identifier
+# 🚀 Beast Watch
 
 This project uses **Google Gemini AI** to identify animals from images and provide emergency guidance if the animal is dangerous. 
 
