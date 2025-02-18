@@ -1,2 +1,4 @@
 key.env
 .ipynb_checkpoints/key-checkpoint.envkey-checkpoint.env
+.DS_Store
+**/__pycache__/**
