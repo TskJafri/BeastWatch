@@ -10,6 +10,32 @@ This will soon be connected to an open source computer vision model which monito
 
 Further ideas are being considered, such as SMS warnings to people in the area, and wildlife officials, and much more! Stay tuned!
 
+## 🏗 Architecture
+
+Beast Watch operates in a two-stage pipeline:
+
+### **Stage 1: Object Detection**
+- Uses **YOLO** and **Meta's AI models** to detect animals in an image.
+- Filters out **false positives** (e.g., humans, domestic animals).
+- If a **wild animal** is detected, it proceeds to Stage 2.
+
+### **Stage 2: LLM Inference & Decision-Making**
+- A **Google Gemini AI model** analyzes the detected animal.
+- Extracts species-specific data (e.g., speed, behavior, risk level).
+- Generates **real-time safety instructions** based on the animal type.
+
+### **Emergency Response System**
+Once an animal is confirmed, Beast Watch triggers multiple **response mechanisms**:
+1. **CCTV-Based Iterative Tracking** – Continuously monitors the animal's movement.
+2. **SMS & Audible Alerts** – Sends emergency notifications to nearby individuals.
+3. **Notifying Authorities** – Wildlife officials and law enforcement are alerted.
+4. **Social Media & Press** – Broadcasts information to raise awareness.
+
+This structured approach ensures **real-time detection, automated warnings, and proactive safety measures** for both humans and wildlife.
+
+![data/assets/BeastWatch.png](data/assets/BeastWatch.png)
+
+
 ## 📌 Features
 - Takes an image and a word input.
 - Warns the user if the animal is dangerous.
