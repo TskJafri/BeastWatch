@@ -67,5 +67,13 @@ output = process_input(text_input, image_path)
 print(output)
 ```
 
+## 👨🏽‍💻👨🏽‍💻👩🏽‍💻👨🏽‍💻👨🏽‍💻👨🏽‍💻 Our Team
+1. [Mihir Thakur](https://www.linkedin.com/in/mihirthakur7/)
+2. [Satvik Panchal](https://www.linkedin.com/in/satvik-panchal/)
+3. [Bina Kumari Rauniyar](https://www.linkedin.com/in/bina98/)
+4. [Avi Savalia](https://www.linkedin.com/in/avisavalia/)
+5. [Taskeen Jafri](https://www.linkedin.com/in/tjafri/)
+6. [Himansh Mudigonda](https://www.linkedin.com/in/himudigonda/)
+
 ## 📜 License
 This project is open-source. Feel free to modify and improve it!
